@@ -125,6 +125,7 @@ Manipulating articulated objects with robotic arms is challenging due to the com
 - Level: Category-Agnostic
 - Dataset: PartNet-Mobility
 - Input: Multiple RGB Images, Mesh
+- Tell the query objects the interacting way, like how many hands to move, and what the action should be. Seems supervised learning to predict
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
