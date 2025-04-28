@@ -110,6 +110,7 @@ A curated list of resources for articulated objects understanding, including art
 - Level: Category-Agnostic
 - Dataset: GaPartNet
 - Input: Point Cloud
+- Hardware: utilized Panda arm to play with the articulated objects
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
