@@ -108,9 +108,9 @@ A curated list of resources for articulated objects understanding, including art
 
 [📄 Paper](https://www.arxiv.org/abs/2412.16656)
 - Level: Category-Agnostic
-- Dataset: GaPartNet
+- Dataset: GaPartNet (in this dataset utilized Panda arm to play with the articulated objects). https://pku-epic.github.io/GAPartNet/ updated 6 months ago
 - Input: Point Cloud
-- Hardware: utilized Panda arm to play with the articulated objects
+
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
@@ -167,6 +167,8 @@ Openable part detection is the task of detecting the openable parts of an object
 - Level: Category-Agnostic
 - Dataset: OPDSynth, OPDReal
 - Input: Single RGB Image
+- outputs segmentations for openable parts on potentially multiple objects, along with each part’s motion parameters: motion type (translation or rotation, indicated by blue or purple mask), motion axis and origin (see green arrows and points). For each openable part, we predict the motion parameters (axis and origin) in object coordinates along with an object pose prediction to convert to camera coordinates.
+- code is not maintained. 2years ago
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
