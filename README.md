@@ -578,6 +578,7 @@ Articulated objects, as prevalent entities in human life, their 3D representatio
 - Level: Category-Agnostic
 - Input: RGB-D images
 - generate urdf acooridng to image. like supervised learning, pair urdf with image, used grounding dino; tested real to sim to real. and it's multiple objects, the whole scene instead of a single object
+- applied ur5 with 3d-printed 2 fingered gripper and d435i camera. pybullet for sim; sim2real2sim
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
