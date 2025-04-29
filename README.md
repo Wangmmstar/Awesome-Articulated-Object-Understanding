@@ -577,6 +577,7 @@ Articulated objects, as prevalent entities in human life, their 3D representatio
 [📄 Paper](https://arxiv.org/abs/2405.11656) | [🌐 Project Page](https://urdformer.github.io/) | [💻 Code](https://github.com/WEIRDLabUW/urdformer)
 - Level: Category-Agnostic
 - Input: RGB-D images
+- generate urdf acooridng to image. like supervised learning, pair urdf with image, used grounding dino; tested real to sim to real. and it's multiple objects, the whole scene instead of a single object
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
