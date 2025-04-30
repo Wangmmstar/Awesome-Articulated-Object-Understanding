@@ -607,6 +607,7 @@ We present Real2Code, a novel approach to reconstructing articulated objects via
 [📄 Paper](https://arxiv.org/abs/2408.14873) | [🌐 Project Page](https://robostudioapp.com/)
 - Dataset: Real2Sim
 - Input: RGB Images
+- take a video around the arm, then reconstruct and 3d gaussian splattering, then generate the urdf file of the robotic arm
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
@@ -619,9 +620,12 @@ This hybrid representation is implemented through a Gaussian-Mesh-Pixel binding 
 ### 5. DexSim2Real2: Building Explicit World Model for Precise Articulated Object Dexterous Manipulation
 *DexSim2Real2, arXiv 2024*
 
-[📄 Paper](https://arxiv.org/abs/2409.08750) | [🌐 Project Page](https://jiangtaoran.github.io/dexsim2real2_website/)
+[📄 Paper](https://arxiv.org/abs/2409.08750) | [🌐 Project Page](https://jiangtaoran.github.io/dexsim2real2_website/) | [Code](https://github.com/jiangtaoran/DexSim2Real2) 
 - Dataset: Shape2Motion, PartNet-Mobility, 
 - Input: Point Cloud
+- before, after interaction, reconstruct the simulation model (used Ditto), then for dexterous hand, plan the movement and long-horizon action sequence; Utilize CEM to accurately manipulate the object in simulation. realsense d435i
+- seems the code is not maintained.
+
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
@@ -649,6 +653,7 @@ Training robot policies in the real world can be unsafe, costly, and difficult t
 - Level: Category-Agnostic
 - Dataset: PartNet-Mobility
 - Input: Image, text, videos
+- VLM for actor-critic, the python code compiled in urdf and visualize the link and joint, then the VLM would do the critic to improve the urdf.
 <details span>
 <summary><b>Abstract</b></summary>
 <br>
